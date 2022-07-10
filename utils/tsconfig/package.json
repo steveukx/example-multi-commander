@@ -1,0 +1,9 @@
+{
+  "name": "@multi-commander/tsconfig",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "main": "./tsconfig.json",
+  "scripts": {
+  }
+}

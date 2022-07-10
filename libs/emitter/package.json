@@ -1,0 +1,11 @@
+{
+  "name": "@multi-commander/emitter",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@multi-commander/tsconfig": "^1.0.0",
+    "commander": "^9.3.0"
+  },
+  "main": "./src/index",
+  "scripts": {}
+}

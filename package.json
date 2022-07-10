@@ -1,0 +1,25 @@
+{
+  "name": "@multi-commander/workspace",
+  "version": "1.0.0",
+  "description": "Example showing how to configure multiple commander apps using pub-sub",
+  "author": "Steve King <steve@mydev.co>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@changesets/changelog-github": "^0.4.5",
+    "@changesets/cli": "^2.23.1",
+    "lerna": "^5.1.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "jest": "^28.1.2",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*",
+    "utils/*"
+  ]
+}
